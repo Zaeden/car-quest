@@ -7,7 +7,7 @@ import { carRouter } from "./routes/car.route.js";
 import { dealRouter } from "./routes/deal.route.js";
 
 const app = express();
-const { PORT } = process.env;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
