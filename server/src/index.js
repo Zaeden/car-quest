@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://car-quest-044u.onrender.com",
+    origin: "https://car-quest-i2ot.onrender.com",
     credentials: true,
   })
 );
