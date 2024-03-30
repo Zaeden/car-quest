@@ -16,9 +16,6 @@ import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 const config = {
   kit: {
     adapter: node(),
-    methodOverride: {
-      allowed: ["PATCH", "DELETE"],
-    },
   },
   preprocess: vitePreprocess(),
   ssr: false,
