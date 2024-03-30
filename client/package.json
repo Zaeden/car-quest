@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-node": "^5.0.1",
 		"svelte-french-toast": "^1.2.0"
 	}
 }
